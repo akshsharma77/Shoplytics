@@ -6,7 +6,7 @@ An end-to-end data analysis project investigating sales performance, seasonal de
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [Project Overview](#project-overview)
 2. [Business Problems Solved](#business-problems-solved)
 3. [Dataset Architecture](#dataset-architecture)
@@ -25,7 +25,7 @@ An end-to-end data analysis project investigating sales performance, seasonal de
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Top-line revenue growth can often mask severe operational and pricing inefficiencies. An e-commerce business may generate record-breaking gross sales while bleeding margin on unprofitable sub-categories, poorly calibrated discounts, or high-cost fulfillment regions.
 
@@ -33,7 +33,7 @@ This project delivers a diagnostic analysis of a multi-year retail transaction d
 
 ---
 
-## 🎯 Business Problems Solved
+##  Business Problems Solved
 
 This analysis answers key operational questions:
 - **Revenue vs. Profit Health:** What are our actual baseline metrics (Total Sales, Net Profit, Average Order Value, Profit Margins)?
@@ -45,7 +45,7 @@ This analysis answers key operational questions:
 
 ---
 
-## 📊 Dataset Architecture
+##  Dataset Architecture
 
 - **Source:** Superstore Retail Sales Dataset (Publicly available transaction log)
 - **Granularity:** Line-item order level (~9,994 rows × 21 columns)
@@ -53,7 +53,7 @@ This analysis answers key operational questions:
 
 ---
 
-## 🛠️ Data Cleaning & Feature Engineering
+##  Data Cleaning & Feature Engineering
 
 ### 1. Data Cleaning
 - **Datetime Parsing:** Converted string dates (`Order Date`, `Ship Date`) into standardized `datetime64` objects to enable time-series indexing.
@@ -73,7 +73,7 @@ To answer nuanced commercial questions, the raw data was enriched with derived f
 
 ---
 
-## 📈 Exploratory Data Analysis & Visualizations
+##  Exploratory Data Analysis & Visualizations
 
 ### 1. Temporal Trends & Seasonality
 
@@ -147,7 +147,7 @@ Discounting is the single largest variable dictating order profitability.
 
 ---
 
-## 🔍 Key Business Insights
+##  Key Business Insights
 
 1. **Promotional Value Destruction:** Discounts above 20% consistently destroy operating margins. Markdowns past 40% generate catastrophic line-item losses regardless of product category.
 2. **Furniture Department Drag:** Furniture delivers an anaemic profit margin (~2-3%) compared to Technology (~17-18%). Tables and Bookcases operate as unhedged loss-leaders.
@@ -157,7 +157,7 @@ Discounting is the single largest variable dictating order profitability.
 
 ---
 
-## 💡 Actionable Recommendations
+##  Actionable Recommendations
 
 ### 1. Enforce a Firm Discount Ceiling
 - Cap standard sales rep discounting at **15%**.
@@ -178,7 +178,7 @@ Discounting is the single largest variable dictating order profitability.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 E-Commerce-Sales-Analysis/
@@ -205,8 +205,9 @@ E-Commerce-Sales-Analysis/
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
 ```
-## How to Run
-1.** Clone the Repository**
+exclusions
+ How to Run
+1. Clone the Repository
 Bash
 
 git clone https://github.com/your-username/Shoplytics.git
@@ -225,7 +226,15 @@ pip install -r requirements.txt
 Bash
 
 jupyter notebook notebooks/ecommerce_analysis.ipynb
-💻 Tech Stack
+ Tech Stack
 Language: Python 3.x
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Environment: Jupyter Notebook / VS Code
+
+ Author
+
+Aksh Sharma
+
+B.Tech — Computer Science Engineering
+
+
