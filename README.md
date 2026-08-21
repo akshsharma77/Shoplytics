@@ -6,7 +6,7 @@ An end-to-end data analysis project investigating sales performance, seasonal de
 
 ---
 
-##  Table of Contents
+## 📖 Table of Contents
 1. [Project Overview](#project-overview)
 2. [Business Problems Solved](#business-problems-solved)
 3. [Dataset Architecture](#dataset-architecture)
@@ -25,7 +25,7 @@ An end-to-end data analysis project investigating sales performance, seasonal de
 
 ---
 
-##  Project Overview
+## 📌 Project Overview
 
 Top-line revenue growth can often mask severe operational and pricing inefficiencies. An e-commerce business may generate record-breaking gross sales while bleeding margin on unprofitable sub-categories, poorly calibrated discounts, or high-cost fulfillment regions.
 
@@ -33,7 +33,7 @@ This project delivers a diagnostic analysis of a multi-year retail transaction d
 
 ---
 
-##  Business Problems Solved
+## 🎯 Business Problems Solved
 
 This analysis answers key operational questions:
 - **Revenue vs. Profit Health:** What are our actual baseline metrics (Total Sales, Net Profit, Average Order Value, Profit Margins)?
@@ -204,24 +204,38 @@ E-Commerce-Sales-Analysis/
 ├── requirements.txt                    # Exact library dependencies
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
----
+🚀 How to Run
+Prerequisites
+Make sure Python 3.8+ is installed on your local environment.
 
-## How to Run
-1. **Clone the Repository**
+1. Clone the Repository
+Bash
 
-
-git clone https://github.com/your-username/Shoplytics.git
-cd Shoplytics
-2. **Set Up Virtual Environment & Dependencies**
+git clone https://github.com/your-username/E-Commerce-Sales-Analysis.git
+cd E-Commerce-Sales-Analysis
+2. Set Up a Virtual Environment (Optional but Recommended)
+Bash
 
 python -m venv venv
-# Windows:
+# On Windows:
 venv\Scripts\activate
-# Mac/Linux:
+# On macOS/Linux:
 source venv/bin/activate
+3. Install Dependencies
+Bash
 
 pip install -r requirements.txt
-3. **Open Notebook**
+4. Run the Analysis
+Launch Jupyter Lab or Notebook and run all cells sequentially:
 
+Bash
 
 jupyter notebook notebooks/ecommerce_analysis.ipynb
+💻 Tech Stack
+Language: Python 3.x
+Data Manipulation: pandas, numpy
+Data Visualization: matplotlib, seaborn
+Environment: Jupyter Notebook / VS Code
+👤 Author
+Portfolio Project: Phase 3 — Python for Data Analysis
+Focus: Exploratory Data Analysis, Commercial Diagnostics & Strategy
