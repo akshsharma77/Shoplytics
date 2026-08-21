@@ -204,41 +204,28 @@ E-Commerce-Sales-Analysis/
 ├── requirements.txt                    # Exact library dependencies
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
-
----
-
-🚀 How to Run
-Prerequisites
-Make sure Python 3.8+ is installed on your local environment.
-
-1. Clone the Repository
+```
+## How to Run
+1.** Clone the Repository**
 Bash
 
-git clone https://github.com/your-username/E-Commerce-Sales-Analysis.git
-cd E-Commerce-Sales-Analysis
-2. Set Up a Virtual Environment (Optional but Recommended)
+git clone https://github.com/your-username/Shoplytics.git
+cd Shoplytics
+2. Set Up Virtual Environment & Dependencies
 Bash
 
 python -m venv venv
-# On Windows:
+# Windows:
 venv\Scripts\activate
-# On macOS/Linux:
+# Mac/Linux:
 source venv/bin/activate
-3. Install Dependencies
-Bash
 
 pip install -r requirements.txt
-4. Run the Analysis
-Launch Jupyter Lab or Notebook and run all cells sequentially:
-
+3. Open Notebook
 Bash
 
 jupyter notebook notebooks/ecommerce_analysis.ipynb
 💻 Tech Stack
 Language: Python 3.x
-Data Manipulation: pandas, numpy
-Data Visualization: matplotlib, seaborn
+Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Environment: Jupyter Notebook / VS Code
-👤 Author
-Portfolio Project: Phase 3 — Python for Data Analysis
-Focus: Exploratory Data Analysis, Commercial Diagnostics & Strategy
