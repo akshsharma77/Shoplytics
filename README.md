@@ -205,25 +205,22 @@ E-Commerce-Sales-Analysis/
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
 ```
-exclusions
- How to Run
-1. Clone the Repository
-Bash
+## How to Run
+###1. Clone the Repository
+
 
 git clone https://github.com/your-username/Shoplytics.git
 cd Shoplytics
-2. Set Up Virtual Environment & Dependencies
-Bash
+###2. Set Up Virtual Environment & Dependencies
 
 python -m venv venv
-# Windows:
+#### Windows:
 venv\Scripts\activate
-# Mac/Linux:
+#### Mac/Linux:
 source venv/bin/activate
 
 pip install -r requirements.txt
-3. Open Notebook
-Bash
+###3. Open Notebook
 
 jupyter notebook notebooks/ecommerce_analysis.ipynb
  Tech Stack
@@ -231,9 +228,9 @@ Language: Python 3.x
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Environment: Jupyter Notebook / VS Code
 
- Author
+## Author
 
-Aksh Sharma
+###Aksh Sharma
 
 B.Tech — Computer Science Engineering
 
