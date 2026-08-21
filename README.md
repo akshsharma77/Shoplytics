@@ -229,7 +229,9 @@ jupyter notebook notebooks/ecommerce_analysis.ipynb
 Language: Python 3.x
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Environment: Jupyter Notebook / VS Code
+
 ---
+
 ## Author
 
 ### Aksh Sharma
