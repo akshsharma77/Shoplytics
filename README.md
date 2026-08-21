@@ -208,7 +208,7 @@ E-Commerce-Sales-Analysis/
 ---
 
 ## How to Run
-###1. Clone the Repository
+### 1. Clone the Repository
 
 
 git clone https://github.com/your-username/Shoplytics.git
@@ -229,7 +229,7 @@ jupyter notebook notebooks/ecommerce_analysis.ipynb
 Language: Python 3.x
 Libraries: Pandas, NumPy, Matplotlib, Seaborn
 Environment: Jupyter Notebook / VS Code
-
+---
 ## Author
 
 ### Aksh Sharma
