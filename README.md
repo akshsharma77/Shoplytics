@@ -204,6 +204,7 @@ E-Commerce-Sales-Analysis/
 ├── requirements.txt                    # Exact library dependencies
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
+---
 
 ## How to Run
 1. **Clone the Repository**
