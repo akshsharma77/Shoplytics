@@ -204,6 +204,9 @@ E-Commerce-Sales-Analysis/
 ├── requirements.txt                    # Exact library dependencies
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
+
+---
+
 🚀 How to Run
 Prerequisites
 Make sure Python 3.8+ is installed on your local environment.
