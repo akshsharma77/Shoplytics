@@ -204,3 +204,23 @@ E-Commerce-Sales-Analysis/
 ├── requirements.txt                    # Exact library dependencies
 ├── README.md                           # Project documentation & business report
 └── .gitignore                          # Standard git excludes
+
+## How to Run
+1. **Clone the Repository**
+
+
+git clone https://github.com/your-username/Shoplytics.git
+cd Shoplytics
+2. **Set Up Virtual Environment & Dependencies**
+
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+3. **Open Notebook**
+
+
+jupyter notebook notebooks/ecommerce_analysis.ipynb
